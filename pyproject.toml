@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "SEC Data"
+version = "2025.0.0"
+authors = [
+  {name = "Brendan"},
+]
+description = "Fetching SEC Data Using Python"
+readme = "README.md"
+
+requires-python = ">= 3.8"
+
+dependencies = [
+  "pandas",
+  "bs4",
+  "lxml",
+  "requests",
+]
+
+
+[project.optional-dependencies]
+dev = ["black"]
