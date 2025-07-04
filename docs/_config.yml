@@ -1,0 +1,11 @@
+title: "SEC Data"
+logo: icon.png
+repository:
+  url: https://github.com/88Blang/sec-data
+  branch: main
+execute:
+    execute_notebooks: auto 
+    stderr_output: remove-warn
+hmtl:
+  favicon: icon.png
+
