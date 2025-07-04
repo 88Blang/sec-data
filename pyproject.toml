@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "SEC Data"
+name = "SEC-Data"
 version = "2025.0.0"
 authors = [
   {name = "Brendan"},
