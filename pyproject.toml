@@ -20,6 +20,10 @@ dependencies = [
   "requests",
 ]
 
-
 [project.optional-dependencies]
 dev = ["black"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "sec_data/*.py",
+]
